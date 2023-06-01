@@ -1,0 +1,78 @@
+.main{
+    margin-top:50px;
+    width:auto;
+    margin-left:10%;
+  }
+
+  @media screen  and (max-width:670px){
+    .main{
+      margin-left:auto;
+      margin-right:auto;
+    }
+  }
+  
+  .main p{
+    font-weight:600;
+   }
+  
+  @media screen  and (max-width:670px){
+    .main p{
+      margin-left:10%;
+    }
+  }
+
+  .main-card{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  
+  .main-card .informations{
+    margin-top:30px;
+  }
+  
+  /* Info Card */
+  .informations{
+    display:flex;
+    flex-basis:50%;
+    flex-grow:1;
+  }
+
+  @media screen  and (max-width:670px){
+    .informations {
+      flex-basis:100%;  
+      margin-left:10%;
+    }
+  }
+  
+  .informations .icons{
+     position:relative;
+     width:65px !important;
+     height:65px !important;
+     border-radius:50% !important;
+     background-color: rgba(217, 217, 217, 0.25);
+  }
+  
+
+
+  .informations .icons img{
+    position:absolute;
+    top: 36%;
+    left: 26%;
+  }
+  
+  .comment{
+    margin-left:10px;
+  }
+  
+  .comment .title{
+    color:black;
+  }
+  
+  .comment .description{
+    color:#4D4D4D;
+  }
+  
+  .comment .description{
+   max-width:270px;
+   word-break: break-word;
+  }
